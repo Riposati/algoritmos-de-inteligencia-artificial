@@ -1,0 +1,34 @@
+.swiper-container {
+    width: 85%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(235, 233, 233);
+    border: 3px solid #fa4525 !important;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #fa4525;
+    filter: brightness(50%);
+    width: 400px;
+    height: auto;
+}
+
+.swiper-slide-active {
+    filter: brightness(100%);
+}
+
+
+.img-box-game img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media  (max-width:500px) {
+    .swiper-slide{
+        width: 350px;
+        height: 500px;
+    }
+}
